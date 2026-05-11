@@ -86,7 +86,7 @@
       position: fixed;
       top: 40px; left: 0; right: 0;
       z-index: 2000;
-      height: 94px;
+      height: 72px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -107,7 +107,7 @@
     }
     .nav-name {
       font-family: 'Playfair Display', serif;
-      font-size: 2.73rem;
+      font-size: 1.6rem;
       font-weight: 800;
       letter-spacing: -0.03em;
       color: #fff;
@@ -150,16 +150,16 @@
     }
     .nav-links a:hover { color: #fff; }
     .nav-cta {
-      background: var(--ink) !important;
-      color: #fff !important;
+      background: #fff !important;
+      color: #000 !important;
       padding: 10px 22px !important;
       border-radius: 2px !important;
     }
-    .nav-cta:hover { background: var(--ink2) !important; }
+    .nav-cta:hover { background: rgba(255,255,255,0.85) !important; }
 
     /* ── HERO ── */
     .hero {
-      padding-top: calc(40px + 94px);
+      padding-top: calc(40px + 72px);
       min-height: 100vh;
       position: relative;
       display: flex;
@@ -887,7 +887,7 @@
       .nav-links { gap: 0; flex-shrink: 0; }
       .nav-links li:not(:last-child) { display: none; }
       .nav-cta { padding: 10px 18px !important; font-size: 0.7rem !important; white-space: nowrap; flex-shrink: 0; }
-      .hero { padding-top: calc(40px + 70px); min-height: 100svh; }
+      .hero { padding-top: calc(40px + 72px); min-height: 100svh; }
       .hero-left { padding: 52px 28px 48px 32px; }
       .hero h1 { font-size: 3.2rem; }
 
